@@ -1,0 +1,12 @@
+<idea-plugin version="2">
+  <name>Extending IntelliJ</name>
+  <description>Small plug-in to model the development IntelliJ plug-ins.</description>
+  <version>1.0</version>
+  <vendor>Sircon, a Vertafore Business</vendor>
+  <idea-version since-build="95.429"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+      <inspectionToolProvider
+              implementation="com.vertafore.intellij.extending.inspection.ExtendingIntelliJInspectionToolProviderGroovy" />
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,8 @@
+<problems>
+    <problem>
+        <file>Test.java</file>
+        <line>3</line>
+        <problem_class>Constants should have names with ALL CAPS</problem_class>
+        <description>Constant names should be ALL CAPS.</description>
+    </problem>
+</problems>
